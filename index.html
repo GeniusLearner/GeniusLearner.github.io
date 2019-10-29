@@ -52,7 +52,7 @@
             border-radius: 50%;
         }
         .fa:hover {
-    opacity: 0.7;
+            opacity: 0.7;
         }
         .fa-facebook {
             background: #3B5998;
@@ -72,7 +72,64 @@
         }
         .fa-telegram {
             background: #007bb5;
-            color: white;}
+            color: white;
+        }
+        * {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
     </style>
         </head>
             <body>
@@ -90,6 +147,35 @@
                         <a href="https://web.telegram.org/#/im" class="fa fa-telegram"></a>
                     </fa>
                 </div>
+                 <div class="container">
+  <div style="text-align:center">
+    <h2>LET'S GET IN TOUCH!</h2>
+    <p>Swing by for a cup of coffee, or leave me a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="https://i.gadgets360cdn.com/large/macbook_table_full_1482314361057.png?output-quality=80&output-format=webp" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="India">INDIA</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="australia">Australia</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
     <footer>
         <div class="footer">
             Copyright &copy; 2019 Sanchit Khurana. Made with &hearts; in New Delhi, India.
@@ -98,5 +184,5 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-        </body>
-    </html>
+            </body>
+</html>
