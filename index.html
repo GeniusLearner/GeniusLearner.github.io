@@ -1,130 +1,282 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Sanchit Khurana</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style type="text/css">
-        body {
-            background-color: #f4f4f4;
-            font-family: Montserrat, sans-serif;
-            font-size: 20px;
-        }
-        
-        #container {
-            background-color: #FFFFFF;
-            margin: 200px auto;
-            justify-content: center;
-            text-align: center;
-            vertical-align: middle;
-            max-width: 640px;
-            padding: 20px 20px 20px 20px;
-            border-radius: 10%;
-            /* position: relative; */
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-top: -305px;
-            /* this is half the height of your div*/
-            margin-left: -320px;
-        }
-        
-        .name {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-        
-        img {
-            border-radius: 50%;
-            border: 30px solid aliceblue;
-        }
-        
-        footer {
-            margin: auto;
-            justify-content: center;
-            text-align: center;
-            max-width: 640px;
-            position: fixed;
-        }
-        
-        .footer {
-            position: fixed;
-            bottom: 10px;
-            margin-left: -9px;
-            background-color: #000;
-            color: #fff;
-            padding: 5px;
-            width: 100%;
-            border-color: 0;
-        }
-        
-        .fa {
-            background-color: #FFFFFF;
-            margin: 0 auto;
-            justify-content: center;
-            text-align: center;
-            max-width: 640px;
-            padding: 10px 10px 10px 10px;
-            border-radius: 50%;
-        }
-        
-        .fa:hover {
-            opacity: 0.7;
-        }
-        
-        .fa-facebook {
-            background: #3B5998;
-            color: white;
-        }
-        
-        .fa-twitter {
-            background: #55ACEE;
-            color: white;
-        }
-        
-        .fa-linkedin {
-            background: #007bb5;
-            color: white;
-        }
-        
-        .fa-instagram {
-            background: #125688;
-            color: white;
-        }
-        
-        .fa-telegram {
-            background: #007bb5;
-            color: white;
-        }
-        
-        * {
-            box-sizing: border-box;
-        }
-    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
 </head>
 
-<body>
-    <div id="container">
-        <h2>Hello! My name is</h2><span class="name"><h2>SANCHIT KHURANA</h2></span>
-        <img src="assets/images/sanchit.jpg" width="200px" height="200px">
-        <p>I am a junior student pursuing Bachelor of Technology in Computer Science and Engineering from Guru Gobind Singh Indraprastha University, Delhi, India.</p>
-        <p>I am a Python enthusiast and currently learning about web technologies. This site is the place I own on the Internet.</p>
-        <fa>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <a href="https://www.facebook.com/GeniusLearner?ref=bookmarks" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/genius_learner" class="fa fa-twitter"></a>
-            <a href="https://www.instagram.com/geniuslearner/" class="fa fa-instagram"></a>
-            <a href="https://www.linkedin.com/in/sanchit-khurana-547585189/" class="fa fa-linkedin"></a>
-            <a href="https://web.telegram.org/#/im" class="fa fa-telegram"></a>
-        </fa>
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Sanchit Khurana</span>
+            <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/sanchit.jpg" alt="">
+      </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+            <div class="w-100">
+                <h1 class="mb-0">Sanchit
+                    <span class="text-primary">Khurana</span>
+                </h1>
+                <div class="subheading mb-5">Budding FOSS Developer ·
+                    <a href="mailto:name@email.com">sanchitkhuranask@gmail.com</a>
+                </div>
+                <p class="lead mb-5">I am a junior student pursuing Bachelor of Technology in Computer Science and Engineering from Guru Gobind Singh Indraprastha University, Delhi, India. I am a Python enthusiast and currently learning about web technologies. This site is
+                    the place I own on the Internet. <br> The desire to make something useful steers my motivation. I am an optimist, a Technology Enthusiast, an avid Music lover, a couch potato and a good listener. I also love to watch TV-Shows and I'm
+                    open to suggestions.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sanchit-k-547585189/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/GeniusLearner">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/genius_learner">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/GeniusLearner?ref=bookmarks">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/geniuslearner/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+            <div class="w-100">
+                <h2 class="mb-5">Experience</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Intern</h3>
+                        <div class="subheading mb-3">GSSoC 2020</div>
+                        <p>I have worked with web scraping and back-end(Python).</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Feb 2020 - Present</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Open Source</h3>
+                        <div class="subheading mb-3">CPython</div>
+                        <p>Enhanced Python documentation in Python in 3.7 release.</p>
+                    </div>
+
+                    <div>
+                        <br><br><br><br><br><br>
+                        <div class="subheading mb-3">Debian</div>
+                        <p>Debian packaging contributor. Packaged already written applications in Python and Golang to be available for installation via apt in Debian unstable.
+                            <br> It is soon to be released in Ubuntu. Collaborated with people across multiple-time zones.
+                        </p>
+                    </div>
+                    <br>
+                    <div>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                        <div class="subheading mb-3">Hactoberfest 2019</div>
+                        <p>Completed Hacktoberfest by landing four pull requests & enhanced git skills and got familiar with open source.</p>
+                    </div>
+                </div>
+            </div>
     </div>
 
-    <footer>
-        <div class="footer">
-            Copyright &copy; 2019 Sanchit Khurana. Made with &hearts; in New Delhi, India.
+
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+        <div class="w-100">
+            <h2 class="mb-5">Education</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Guru Gobind Singh Indraprastha University</h3>
+                    <div class="subheading mb-3">Bachelor Of Technology - Computer Science and Engineering</div>
+                    <p>GPA: -</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">August 2019 - May 2023</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                    <h3 class="mb-0">New Green Field School</h3>
+                    <div class="subheading mb-3">Science (Physics, Chemistry, and Mathematics) with Computer Science (Data Structures and C++ with SQL concentration)</div>
+                    <p>GPA: 3.7</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">August 2018 - May 2019</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between ">
+                <div class="resume-content ">
+                    <h3 class="mb-0 ">New Green Field School</h3>
+                    <div class="subheading mb-3 ">Social and theoretical sciences with Computer Science (c++)​</div>
+                    <p>CGPA: 10.0</p>
+                </div>
+                <div class="resume-date text-md-right ">
+                    <span class="text-primary ">August 2016 - May 2017</span>
+                </div>
+            </div>
+
         </div>
-    </footer>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+        <div class="w-100">
+            <h2 class="mb-5">Skills</h2>
+
+            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+            <ul class="list-inline dev-icons">
+                <li class="list-inline-item">
+                    <i class="fab fa-html5"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-css3-alt"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-python"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-wordpress"></i>
+                </li>
+
+            </ul>
+
+            <div class="subheading mb-3">Skills</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-check"></i> Git</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i> Command Line</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i> Jupyter Notebook</li>
+                <li>
+            </ul>
+            <br>
+
+            <div class="subheading mb-3">Workflow</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-check"></i> Web Development</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i> Debian Packaging &amp; Debugging</li>
+                <li>
+                    <i class="fa-li fa fa-check"></i> Open Source (CPython)</li>
+                <li>
+            </ul>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+        <div class="w-100">
+            <h2 class="mb-5">Interests</h2>
+            <p>Apart from being a web developer, I enjoy most of my time being outdoors. I like to help children in web development. I also organize workshops in my college premises. </p>
+            <p class="mb-0 ">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, and I spend a large amount of my free time exploring the latest technology advancements in the back-end web development world and contributing
+                to open source.
+            </p>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+        <div class="w-100">
+            <h2 class="mb-5">Awards &amp; Certifications</h2>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <i class="fa-li fa fa-trophy text-warning"></i> UDEMY - FOUNDATIONS OF FRONT-END DEVELOPMENT
+                </li>
+                <li>
+                    <i class="fa-li fa fa-trophy text-warning "></i> 1
+                    <sup>st</sup> Place - Table Tennis - zonal level 2019</li>
+                <li>
+                    <i class="fa-li fa fa-trophy text-warning "></i> 1
+                    <sup>st</sup> Place - Table Tennis - zonal level 2018</li>
+                <li>
+                    <i class="fa-li fa fa-trophy text-warning "></i> 1
+                    <sup>st</sup> Place - Table Tennis - zonal level 2017</li>
+                <li>
+                    <i class="fa-li fa fa-trophy text-warning "></i> 1
+                    <sup>st</sup> Place - Table Tennis - zonal level 2016</li>
+
+            </ul>
+        </div>
+    </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
 </body>
 
 </html>
