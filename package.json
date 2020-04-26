@@ -1,6 +1,6 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
+    "title": "Sanchit_Khurana",
+    "name": "Resume",
     "version": "5.0.8",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
